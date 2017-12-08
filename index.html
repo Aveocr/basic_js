@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+	<div class = "box">
+	<p>top-left corner
+		<input type="range" id = "rtl" min = "0" max = "1000" value = "0" oninput = "js()">
+		<input type="text" id  = "rte" value = "0">
+	</p>
+	<p>	top-right corner
+		<input type="range" id = "blt" min = "0" max = "1000" value = "0" oninput = "js()">
+		<input type="text" id  = "bea" value = "0">
+	</p>
+	<p>bottom left corner
+		<input type="range" id = "ded" min = "0" max = "1000" value = "0" oninput = "js()">
+		<input type="text" id  = "dds" value = "0">
+	</p>
+	<p>botto right corner
+		<input type="range" id = "ews" min = "0" max = "1000" value = "0" oninput = "js()">
+		<input type="text" id  = "esv" value = "0">
+	</p>
+	<p>
+		hight
+		<input type = "range" id = "hig" min = "1" max = "500" value = "1" oninput = "js()">
+		<input type = "text" id = "higt" value = "50">
+	</p>
+	<p>
+	width
+		<input type = "range" id = "wid" min = "1" max = "500" value = "1" oninput = "js()">
+		<input type = "text" id = "widt" value = "50">
+	</p>
+	<p>
+		background-color
+		<input type = "text" id = "color">
+		<button onclick = "get()">To change the background</button>
+	</p>
+</div>
+<div id = "block"></div>
+	<script src="script.js"></script>
+</body>
+</html>
